@@ -2,13 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Access your Rainday account to track orders, manage preferences, and enjoy personalized shopping experiences.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Best outdoor activity jackets from rainydays"
-    />
-    <title>RainyDays | Home</title>
+    <title>login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -84,54 +81,49 @@
         </div>
       </div>
     </header>
-    <main class="main-checkout">
-      <div class="header-of-cart-page"></div>
+    <!--this is for account login -->
+    <main class="success-contener">
+      <section class="login-form">
+          <h2>Login</h2>
+          <form id="login-form">
+              <div class="input-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
 
-      <div class="main-checkout_wrapper">
-        <div class="shopping-cart"></div>
-        <section class="order-summary">
-          <h1>Order summary</h1>
-          <div class="order-summary-wrapper">
-            <div class="total">
-              <p>Sub Total</p>
-              <p class="sub-total"></p>
-            </div>
-            <div class="total">
-              <p>Shipping</p>
-              <p>US $0.00</p>
-            </div>
-            <div class="total">
-              <p>Total</p>
-              <p class="gran-total"></p>
-            </div>
-          </div>
-          <div class="shopping-cart-button">
-            <a href="success.html" class="shop-button checkout-now">Checkout Now</a>
-            <a href="#" class="cart continue-shopping">Continue Shopping</a>
-          </div>
-        </section>
-      </div>
-    </main>
-    <footer>
-      <div  class="icons"> 
-     
-    <!--this is for contact us information-->
-    <h4>Contact</h4>
-     <address>Batmangatan 163 41</address>
-    <address>Stockholm, Sweden</address>
-    <p>Phone : 07004118001</p>
-    <p>Email :
-    <a class="email-link" href="/html/contact.html">info@raindays.com</a></p>
-  </div>
-      <div class="icons">
-        <a href="delivery-tracking.html">Delivery Tracking | </i></a>
-        <a href="terms-and-condition.html">Terms and Condition |</a>
-        <a href="privacy-policy.html">privacy-policy |</i></a>
-      </div>
-      <h4>@Raindays 2024 - All Right Reserved &copy;</h4>
+              <div class="input-group">
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" name="password" placeholder="Enter your password" required>
+              </div>
+
+              <button type="submit" class="button-cta">Login</button>
+          </form>
+      </section>
+  </main>
+ 
+  <footer>
+    <div  class="icons"> 
    
-    
-    </footer>
-    <script src="js/cart.js" type="module"></script>
+  <!--this is for contact us information-->
+  <h4>Contact</h4>
+   <address>Batmangatan 163 41</address>
+  <address>Stockholm, Sweden</address>
+  <p>Phone : 07004118001</p>
+  <p>Email :
+  <a class="email-link" href="/html/contact.html">info@raindays.com</a></p>
+</div>
+    <div class="icons">
+      <a href="delivery-tracking.html">Delivery Tracking | </i></a>
+      <a href="terms-and-condition.html">Terms and Condition |</a>
+      <a href="privacy-policy.html">privacy-policy |</i></a>
+    </div>
+    <h4>@Raindays 2024 - All Right Reserved &copy;</h4>
+ 
+  
+  </footer>
+    <!--this is for js -->
+    <script type="module" src="/js/index.j"></script>
+    <script type="module" src="/js/script.js"></script>
+  <script type="module" src="/js/data.js"></script>
   </body>
 </html>

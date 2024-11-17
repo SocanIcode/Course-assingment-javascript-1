@@ -2,14 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Track your Rainday order in real-time. Stay updated on delivery progress and estimated arrival times.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Best outdoor activity jackets from rainydays"
-    />
-    <title>RainyDays | Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Deliever tracking</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
@@ -24,6 +21,7 @@
     <link href="css/shopping-cart.css" rel="stylesheet" />
     <link href="css/checkout.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
 
     <script
       src="https://kit.fontawesome.com/b3766b9c07.js"
@@ -73,7 +71,7 @@
             <div class="home-bar">
               <a href=""><i class="fas fa-home"></i></a>
             </div>
-           <a href="account.html"><i class="fas fa-user"></i></a>
+            <a  class="user" href="account.html"><i class="fa-solid fa-user"></i></a>
             <div class="cart-icon">
               <a href="shopping-cart.html"
                 ><i class="fas fa-shopping-cart"
@@ -84,32 +82,20 @@
         </div>
       </div>
     </header>
-    <main class="main-checkout">
-      <div class="header-of-cart-page"></div>
-
-      <div class="main-checkout_wrapper">
-        <div class="shopping-cart"></div>
-        <section class="order-summary">
-          <h1>Order summary</h1>
-          <div class="order-summary-wrapper">
-            <div class="total">
-              <p>Sub Total</p>
-              <p class="sub-total"></p>
-            </div>
-            <div class="total">
-              <p>Shipping</p>
-              <p>US $0.00</p>
-            </div>
-            <div class="total">
-              <p>Total</p>
-              <p class="gran-total"></p>
-            </div>
-          </div>
-          <div class="shopping-cart-button">
-            <a href="success.html" class="shop-button checkout-now">Checkout Now</a>
-            <a href="#" class="cart continue-shopping">Continue Shopping</a>
-          </div>
-        </section>
+    <!--- this is for delievery information tracking -->
+    <main class="tracking-container">
+      <h1>Order Tracking</h1>
+      <div class="status-container">
+        <p id="status-text"><i class="fa-solid fa-circle-dot"></i>Order Prepared</p>
+        <i class="fa- fa-truck moving-truck"></i>
+        <p id="status-text"><i class="fa-solid fa-circle-dot"></i>Order delivery</p>
+        <p id="status-text"><i class="fa-solid fa-circle-dot"></i>Delivred</p>
+      </div>
+  
+      <div class="tracking-input">
+        <input type="text" id="order-input"  placeholder="Enter your 11-digit tracking number"
+        maxlength="11">
+        <button id="track-order">Track</button>
       </div>
     </main>
     <footer>
@@ -132,6 +118,6 @@
    
     
     </footer>
-    <script src="js/cart.js" type="module"></script>
+    
   </body>
 </html>
