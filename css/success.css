@@ -30,3 +30,9 @@
   color: var(--green-color);
   font-size: 100px;
 }
+
+.success-page-wrapper i {
+  color: chocolate;
+  font-size: 18px;
+  cursor: pointer;
+}

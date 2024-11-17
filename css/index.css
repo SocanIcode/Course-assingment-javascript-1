@@ -13,11 +13,7 @@ span.h1-wrap {
 }
 
 .banner-image {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.42) 50%,
-      rgba(0, 0, 0, 0.42) 50%
-    ),
-    url(../images/background.jpg);
+  background-image: url(../image/man-mountian-cover.jpg);
   max-width: 100%;
   height: 300px;
   background-size: cover;
