@@ -1,9 +1,9 @@
 :root {
   --text-paragraph: "open san", sans-serif, arial;
   --text-heading: "comfortaa", sans-serif, arial;
-  --primary-color: 131A22;
-  --cart-btn-color: ##4a8999;
-  --active-color: ##081727;
+  --primary-color: #f1f1f1;
+  --cart-btn-color: #4a8999;
+  --active-color: #d36c18;
   --gray-background: ##f1f1f1;
   --call-to-action-btn-color: #dd8d4b;
 

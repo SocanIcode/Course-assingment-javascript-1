@@ -228,8 +228,11 @@ footer {
   align-items: center;
   justify-content: space-around;
   color: var(--primary-color);
-  background: url(../images/footer-texture.png);
+  background-color: #081727;
   margin-top: 100px;
+}
+footer a {
+  color: #ffffff;
 }
 
 .cart-title {
